@@ -341,7 +341,7 @@ h1:after{
 .q__content::before {
   content: '';
   position: absolute;
-  background-image: url('../assets/gif/glitch-line.gif');
+  background-image: url('./assets/gif/glitch-line.gif');
   width: 86px;
   height: 100%;
   background-repeat: no-repeat;
