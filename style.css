@@ -33,6 +33,7 @@ body {
   font-family: 'M PLUS 1 Code', sans-serif;
   color: #ffffff;
   background-color: #000;
+  margin: 0 auto;
 }
 
 
@@ -41,7 +42,6 @@ h2, h3 {
     font-family: 'Press Start 2P', cursive;
   text-align: center;
 }
-
 
 
 
@@ -56,8 +56,8 @@ h2, h3 {
 }
 
 .logo img {
-  width: 50%;
-  height: 30%;
+  width: 200px;
+  height: 35px;
   cursor: pointer;
   margin: 20px;
 }
@@ -100,12 +100,13 @@ nav {
 /*---------------HERO-----------------------*/
 
 .hero {
-  height: 100vh;
+  height: 500px;
   position: relative;
   top: 5rem;
   display: grid;
   place-items: center;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .hero_container {
@@ -113,6 +114,7 @@ nav {
   align-content: center;
   align-items: center;
   grid-template-columns: 60% 40%;
+  
 }
 
 .hero_left {
@@ -120,6 +122,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 h1 {
@@ -233,7 +236,7 @@ h1:after{
 }
 
 .about_title {
-  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .about_content {
@@ -306,17 +309,19 @@ h1:after{
 
  /*----------------------------------------QUALIFICATION--------------------------------------*/
 
-.qualification {
+ /*----------------------------------------QUALIFICATION--------------------------------------*/
+
+ .qualification {
   height: 100vh;
   position: relative;
   top: 5rem;
   display: grid;
   place-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 200px;
 }
 
 .q_title {
-  margin-top: 100px;
+  margin: 40px auto;
 }
 
 .qualification_container {
@@ -326,73 +331,97 @@ h1:after{
   align-items: center;
 }
 
-.qualification_tabs {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.qualification_btn {
-  font-size: 20px;
-  cursor: pointer;
+.q__content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: 10ms;
-  padding: 10px;
 }
 
-.qualification_btn:hover {
-  -webkit-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.qualification_data {
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem;
-}
-
-.q_rounder {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background-color: #F08CD9;
-  border-radius: 50%;
-}
-
-.q_line {
-  display: block;
-  width: 1px;
+.q__content::before {
+  content: '';
+  position: absolute;
+  background-image: url('../assets/gif/glitch-line.gif');
+  width: 86px;
   height: 100%;
-  background-color: #F08CD9;
-  transform: translate(6px, -7px);
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.q_icons {
-  width: 100px;
-  height: 100px;
+.q-line {
+  display: flex;    
+  justify-content: space-between;
+  width: 750px;
+}
+
+.q-line__content:nth-child(n) {
+  text-align: right;
+}
+
+.q-line__content:nth-child(2n) {
+  text-align: left;
+  margin-top: 76px;
+}
+
+.q-line__content {
+  width: 304px;
+  height: 115px;
+}
+
+.q-line__descr {
+  height: 0;
+  overflow: hidden;
+}
+
+.q-line__descr.active {
+  height: auto;
+  overflow: auto;
+}
+
+.q-line__title {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF40;
+}
+
+.q-line__title:hover {
+  color: #F08CD9;
+}
+
+.q-line__descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
 }
 
 
 /*----------------------------------------Certificates-----------------------*/
 
-.c_title {
-  margin-top: 100px;
-}
-
 .certificates {
-  height: 100vh;
-  position: relative;
-  top: 5rem;
-  display: grid;
-  place-items: center;
-  margin-bottom: 5rem;
+  margin: 20px auto;
+  height: 50vh;  
 }
 
-.certif_img {
-  width: 615px;
-  height: 434px;
+.certificates h2 {
+  margin: 15px auto;
+
+}
+
+.certificates div {
+  display: flex;
+  align-items: center;
+ justify-content: space-evenly;
+}
+
+.certificates a img {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
 }
 
 /*------------------------------------------------SKILLS-------------------------------------------*/
@@ -478,12 +507,10 @@ h1:after{
 /*------------------------------------------------PORTFOLIO-------------------------------------*/
 
 .portfolio_section {
-  height: 100vh;
+  height: 80vh;
   position: relative;
-  top: 5rem;
   display: grid;
   place-items: center;
-  margin-bottom: 5rem;
   margin: 0 auto;
 }
 
@@ -515,9 +542,14 @@ h1:after{
   display: flex;
   justify-content: center;
 }
+
+.button .h_2:hover {
+  color: #F08CD9;
+  margin-top: 15px;
+}
+
 /*--------------------------------------------------------CODE-------------------------------*/
 .code {
-  width: 400px;
   margin: 0 auto;
   min-width: 500px;
   position: relative;
@@ -543,6 +575,11 @@ h1:after{
 display: grid;
 align-content: center;
 align-items: center;
+}
+
+.rank {
+  text-align: center;
+  margin: 10px;
 }
 
 
@@ -606,6 +643,36 @@ button {
   color: white;
 }
 
+.contact_item {
+  text-align: center;
+  margin: 20px;
+}
+
+/*--------------------------------------------------ENGLISH----------------------------------------------------------------------*/
+
+.english {
+  margin: 40px auto;
+}
+
+.grammar {
+  text-align: center;
+  align-items: center;
+  margin: 40px auto;
+  align-self: center;
+}
+
+.grammar p {
+  margin: 10px auto;
+}
+
+.grammar h2 {
+  margin: 20px auto;
+}
+
+.grammar img {
+  height: 350px;
+  width: 450px;
+}
 /*--------------------------------------------------FOOTER----------------------------------------------------------------------*/
 footer {
   background-color: #F08CD9;

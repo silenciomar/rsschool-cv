@@ -14,6 +14,7 @@
     <!--Web-development icons created by Chanut-is-Industries - Flaticon-->
     <link rel="stylesheet" href="style.css" />
     <title>CV Kovalenko Lina</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!--NAVBAR-->
@@ -27,12 +28,12 @@
         <nav>
           <ul class="navigation">
             <li><a class="nav_item" href="#hero">HOME</a></li>
-            <li><a class="nav_item" href="#about_info">ABOUT ME</a></li>
-            <li><a class="nav_item" href="#qualification">QUALIFICATION</a></li>
+            <li><a class="nav_item" href="#about">ABOUT ME</a></li>
+            <li><a class="nav_item" href="#journey">JOURNEY</a></li>
             <li><a class="nav_item" href="#skills">SKILLS</a></li>
             <li><a class="nav_item" href="#portfolio">PORTFOLIO</a></li>
-            <li><a class="nav_item" href="#code">CODE EXAMPLE</a></li>
-            <li><a class="nav_item" href="#language">CONTACTS</a></li>
+            <li><a class="nav_item" href="#code_example">CODE EXAMPLE</a></li>
+            <li><a class="nav_item" href="#contacts">CONTACTS</a></li>
           </ul>
         </nav>
       </div>
@@ -156,157 +157,90 @@
         </div>
       </section>
 
-      <!-- QUALIFICATION-->
+      <!-- JOURNEY-->
 
-      <section class="qualification" id="QUALIFICATION">
-        <h2 class="q_title">QUALIFICATION</h2>
+      <section class="qualification" id="journey">
+        <h2 class="q_title">My professional journey</h2>
 
-        <div class="qualification_container">
-          <div class="qualification_tabs">
-            <button>
-              <img
-                class="q_icons"
-                src="./assets/gif/glitch_edu.gif"
-                alt="edu_icon"
-              />
-              <span>Education</span>
-            </button>
-
-            <button>
-              <img
-                class="q_icons"
-                src="./assets/gif/glitch_job.gif"
-                alt="job_icon"
-              />
-              <span>Work experience</span>
-            </button>
-          </div>
-
-          <div class="qualification_sections">
-            <!-- QUALIFICATION content 1 -->
-            <div class="qualification_content active">
-              <!-- QUALIFICATION 1 -->
-              <div class="qualification_data">
-                <div>
-                  <h4>Bachelor’s degree of Accounting and auditing</h4>
-                  <span
-                    >KARAGANDA STATE TECHNICAL UNIVERSITY (now KARAGANDA
-                    TECHNICAL UNIVERSITY)</span
-                  >
-                  <div class="q_calendar">2016 - 2020</div>
-                </div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <span class="q_line"></span>
-                </div>
+        <div class="q__content">
+          <div class="q-line">
+              <div class="q-line__content">
+                  <h3 class="q-line__title">First step</h3>
+                  <p class="q-line__descr active">
+                      Bachelor’s degree of Accounting and auditing
+                  </p>
+ 
               </div>
-
-              <!-- QUALIFICATION 2 -->
-              <div class="qualification_data">
-                <div></div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <span class="q_line"></span>
-                </div>
-
-                <div>
-                  <h4>
+              <div class="q-line__content">
+                  <h3 class="q-line__title">Second step</h3>
+                  <p class="q-line__descr">
                     Master’s degree of Economic Science (Master program
                     “Accounting”)
-                  </h4>
-                  <span>KARAGANDA UNIVERSITY OF KAZPOTREBSOYUZ</span>
-                  <div class="q_calendar">2020 - 2021</div>
-                </div>
+                  </p>
               </div>
-
-              <!-- QUALIFICATION 3 -->
-              <div class="qualification_data">
-                <div>
-                  <h4>Beginner Front-end Developer</h4>
-                  <span
-                    >COURSE - The Rolling Scopes School JavaScript/Front-end.
-                    Stage 0</span
-                  >
-                  <div class="q_calendar">2021 - 2022</div>
-                </div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <span class="q_line"></span>
-                </div>
-              </div>
-
-              <!-- QUALIFICATION 4 -->
-              <div class="qualification_data">
-                <div></div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <!--<span class="q_line"></span>-->
-                </div>
-
-                <div>
-                  <h4>Junior Front-end Developer</h4>
-                  <span
-                    >COURSE - The Rolling Scopes School JavaScript/Front-end.
-                    Stage 1</span
-                  >
-                  <div class="q_calendar">in progress</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- QUALIFICATION content 2 -->
-            <div class="qualification_content">
-              <!-- QUALIFICATION 1 -->
-              <div class="qualification_data">
-                <div>
-                  <h4>1C Сonsultant</h4>
-                  <span>Commercial secret</span>
-                  <div class="q_calendar">2020 - 2021</div>
-                </div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <span class="q_line"></span>
-                </div>
-              </div>
-
-              <!-- QUALIFICATION 2 -->
-              <div class="qualification_data">
-                <div></div>
-
-                <div>
-                  <span class="q_rounder"></span>
-                  <!--<span class="q_line"></span>-->
-                </div>
-
-                <div>
-                  <h4>Junior Front-end Developer</h4>
-                  <span>It could be your company ^_^ </span>
-                  <div class="q_calendar">/ - /</div>
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
+          <div class="q-line">
+              <div class="q-line__content">
+                  <h3 class="q-line__title">Third step</h3>
+                  <p class="q-line__descr">
+                    1C Сonsultant
+                  </p>
+              </div>
+              <div class="q-line__content">
+                  <h3 class="q-line__title">Fourth step</h3>
+                  <p class="q-line__descr">
+                    COURSE - The Rolling Scopes School JavaScript/Front-end.
+                    Stage 0 (december 2021)
+                  </p>
+              </div>
+          </div>
+          <div class="q-line">
+              <div class="q-line__content">
+                  <h3 class="q-line__title">Fifth step</h3>
+                  <p class="q-line__descr">
+                    COURSE - The Rolling Scopes School JavaScript/Front-end.
+                    Stage 1 (quit)
+                  </p>
+              </div>
+              <div class="q-line__content">
+                  <h3 class="q-line__title">Six step</h3>
+                  <p class="q-line__descr">
+                    COURSE - The Rolling Scopes School JavaScript/Front-end.
+                    Stage 0 (now)
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      </section> 
 
       <section class="certificates">
-        <h2 class="c_title">Certificates</h2>
-
+        <h2>Certificates</h2>
         <div>
-          <a href="https://rs.school/js-stage0" target="_blank"
-            ><img
-              class="certif_img"
-              src="./assets/img/RSS0_certificate.png"
-              alt="RSS0_certificate"
-          /></a>
+          <a href=""><img src="./assets/img/RSS0_certificate.png" alt="RSS_0stage"></a>
+
+        <a href="."><img src="./assets/img/cert-sololearn.png" alt="sololearn"></a>
         </div>
+        
+           
       </section>
 
+     <!--ENGLISH-->
+
+      <section class="english">
+        <h2>My english level</h2>
+
+        <div class="grammar">
+          <p>The result of a 15-minute English test in june 2022 </p>
+          <img src="./assets/img/english_15_june.png" alt="result_june">
+        </div>
+
+        <div class="grammar">
+          <h2>But to be honest</h2>
+          <img  src="./assets/img/grammar-meme.jpg" alt="result_june">
+        </div>
+
+      </section>
       <!--SKILLS-->
 
       <section class="skills" id="skills">
@@ -350,7 +284,6 @@
           </div>
         </div>
       </section>
-
       <!--Portfolio-->
 
       <section class="portfolio_section" id="portfolio">
@@ -379,13 +312,24 @@
         <h2>Code example</h2>
         <div class="code_content">
           <pre>
-         <code>
-function multiple (a,b) {
-    return a*b
-}
-         </code>  
-     </pre>
-        </div>
+            <code>
+              function makeNegative(num) {
+                if (num === 0) {
+                  return num;
+                } else if (num &lt; 0) {
+                   return num;
+                } else {
+                  return -num;
+                }
+              }
+             </code>  
+         </pre>
+    
+          <div>
+            <p class="rank">My rank on Codewars</p> 
+            <img src="./assets/svg/codewars.svg" alt="rank">
+          </div>
+            </div>
       </section>
 
       <section class="contact" id="contacts">
@@ -413,7 +357,17 @@ function multiple (a,b) {
             </form>
           </div>
         </div>
+
+        <h2>Another ways to contact me</h2>
+        <ul>
+          <li class="contact_item">E-mail: galya-kovalenko-98@inbox.ru</li>
+          <li class="contact_item">Telegram: <a href="https://t.me/silencio_mar" target="_blank">silencio_mar</a></li>
+          <li class="contact_item">Phone: +77016709740</li>
+          <li class="contact_item">Discord: silenciomar#3199</li>
+        </ul>
       </section>
+
+
 
       <footer>
         <a href="https://github.com/silenciomar" target="_blank"
