@@ -34,12 +34,24 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 5. Sass.
 6. JavaScript.
 7. Figma/Photoshop.
-### Languages
+#### Languages
 
 1. Russian - native.
 2. English - B1.
 3. Kazakh - A2.
 
+
+### Code example
+
+![example][example]
+
+### Courses
+
+1. [Free Front End course](https://youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
+2. [HTML Basics](https://ru.code-basics.com/languages/html)
+3. [CSS Basics](https://ru.code-basics.com/languages/css)
+4. [JS/FE Pre-School 2022Q4](https://app.rs.school/certificate/hg11zk8z)
+5. [JS/FE Pre-School 2022](https://app.rs.school/certificate/ojmibj4z)
 
 [linkedin]:https://www.linkedin.com/in/lina-kovalenko-silenciomar/
 [mail]:mailto:silenciomar27@gmail.com
@@ -48,3 +60,4 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 [telegram]:https://t.me/silencio_mar
 [github]:https://github.com/silenciomar
 [photo]:https://github.com/silenciomar/rsschool-cv/blob/gh-pages/photo.jpg
+[example][https://github.com/silenciomar/rsschool-cv/blob/gh-pages/code_example.jpg]
