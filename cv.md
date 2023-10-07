@@ -8,10 +8,10 @@
 
 1. E-mail: [silenciomar27@gmail.com][mail]
 2. Telegram: [silencio_mar][telegram]
-3. Phone: [+77016709740][phone]
-4. Github: [@silenciomar]
+3. Linkedin: [Galina Vorobyeva][linkedin]
+4. Github: [@silenciomar][github]
 5. Discord: [silenciomar][discord]
-6. Linkedin: [Galina Vorobyeva][linkedin]
+6. Phone: +77016709740
 
 ### About Myself
 
@@ -44,7 +44,18 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 
 ### Code example
 
-![example][example]
+My solution of 6 kyu Kata by Codewars - **Sorting by bits**
+
+```
+  function sortByBit(arr) {
+    arr.sort((a, b) => {
+      const countBitsA = a.toString(2).replace(/0/g, '').length;
+      const countBitsB = b.toString(2).replace(/0/g, '').length;
+      return countBitsA - countBitsB || a - b;
+    });
+    return arr;
+  }
+```
 
 ### Courses
 
@@ -57,8 +68,6 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 [linkedin]:https://www.linkedin.com/in/lina-kovalenko-silenciomar/
 [mail]:mailto:silenciomar27@gmail.com
 [discord]:https://discordapp.com/users/689506453039743136
-[phone]:tel:+77016709740
 [telegram]:https://t.me/silencio_mar
 [github]:https://github.com/silenciomar
 [photo]:/photo.jpg
-[example]:/code_example.jpgcode_example.jpg
