@@ -70,4 +70,4 @@ My solution of 6 kyu Kata by Codewars - **Sorting by bits**
 [discord]:https://discordapp.com/users/689506453039743136
 [telegram]:https://t.me/silencio_mar
 [github]:https://github.com/silenciomar
-[photo]:/photo.jpg
+[photo]:./photo.jpg
