@@ -7,7 +7,7 @@
 ### Contacts
 
 1. E-mail: [silenciomar27@gmail.com][mail]
-2. Telegram: [silencio_mar]
+2. Telegram: [silencio_mar][telegram]
 3. Phone: [+77016709740][phone]
 4. Github: [@silenciomar]
 5. Discord: [silenciomar][discord]
@@ -34,6 +34,7 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 5. Sass.
 6. JavaScript.
 7. Figma/Photoshop.
+
 #### Languages
 
 1. Russian - native.
@@ -59,5 +60,5 @@ To be honest, I am the person who as a teenager had a dream of being a developer
 [phone]:tel:+77016709740
 [telegram]:https://t.me/silencio_mar
 [github]:https://github.com/silenciomar
-[photo]:https://github.com/silenciomar/rsschool-cv/blob/gh-pages/photo.jpg
-[example][https://github.com/silenciomar/rsschool-cv/blob/gh-pages/code_example.jpg]
+[photo]:/photo.jpg
+[example]:/code_example.jpgcode_example.jpg
