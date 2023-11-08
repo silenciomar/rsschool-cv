@@ -1,1 +1,1 @@
-# [rsschool-cv](https://silenciomar.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://silenciomar.github.io/rsschool-cv/)
